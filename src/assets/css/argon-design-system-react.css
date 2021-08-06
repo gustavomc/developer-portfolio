@@ -18137,8 +18137,12 @@ textarea[resize="horizontal"] {
 }
 
 .section-lg {
-	padding-top: 6rem;
+	padding-top: 2rem;
 	padding-bottom: 6rem;
+}
+
+.section-mt {
+	margin-top: 42px;
 }
 
 .section-sm {

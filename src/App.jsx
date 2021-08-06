@@ -26,7 +26,7 @@ const App = () => {
 							<Proficiency />
 							<Education />
 							<Experience />
-							<Feedbacks />
+							{/* <Feedbacks /> */}
 							<Projects />
 							<GithubProfile />
 						</>
