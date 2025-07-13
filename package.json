@@ -6,6 +6,7 @@
 	"repository": "https://github.com/gustavomc/developer-portfolio.git",
 	"author": "Gustavo <10602808+gustavomc0@users.noreply.github.com>",
 	"license": "MIT",
+	"homepage": "https://gustavomc.github.io/developer-portfolio",
 	"dependencies": {
 		"@apollo/client": "^3.3.21",
 		"axios": "^0.21.1",
@@ -33,7 +34,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"browserslist": {
 		"production": [
